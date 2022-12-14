@@ -24,35 +24,60 @@ body{
     background-color: var(--BGdarkblue);
 }
 section{
-    background-color:var(--linedarkblue) ;
-    width:300px;
-    padding: 40px;
-    border-radius: 20px;
+    background-color:var(--Verydarkblue) ;
+    width:250px;
+    padding: 20px;
+    border-radius: 10px;
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 picture img{
     width:300px;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+picture img:hover{
+    background-image: url(images/icon-view.svg);
+    
 }
 h1{
     font-weight: 500;
+    margin-top: 20px;
 }
 h1:hover{
    color: var(--Cyan); 
     
 }
-p{color:var(--Softblue);}
+p{
+    color:var(--Softblue);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
 ul{
     list-style: none;
-    display: flex;   
+    display: flex; 
+    margin-top: 20px;  
 }
 li{
     color: var(--Cyan);
+}
+ul .timeleft{
+    margin-left: 70px;
 }
 .avatar{
     width: 2rem;
     background-color: var(--White);
 }
-.credits{display: flex;}
+.credits{
+    display: flex;
+    margin-top: 20px;
+}
+.line{
+    height: 1px;
+    background: var(--Softblue);
+    margin-top: 20px;
+}
+.highlight:hover{color:var(--Cyan);}
+.time{color:var(--Softblue);}
+
