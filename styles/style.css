@@ -33,14 +33,6 @@ section{
     margin-right: auto;
     margin-top: 100px;
 }
-picture img{
-    width:300px;
-    border-radius: 10px;
-}
-picture img:hover{
-    background-image: url(images/icon-view.svg);
-    
-}
 h1{
     font-weight: 500;
     margin-top: 20px;
@@ -66,18 +58,47 @@ ul .timeleft{
     margin-left: 70px;
 }
 .avatar{
-    width: 2rem;
+    width: 3rem;
     background-color: var(--White);
+    
 }
 .credits{
     display: flex;
     margin-top: 20px;
+}
+.credits p{
+    margin-left: 20px;
 }
 .line{
     height: 1px;
     background: var(--Softblue);
     margin-top: 20px;
 }
-.highlight:hover{color:var(--Cyan);}
+.name:hover{color:var(--Cyan);}
 .time{color:var(--Softblue);}
+.main_image{
+    max-width:100%;
+    border-radius: 10px;
+    display:block;
+}
+.overlay{
+    width:300ppx;
+    height: 250px;
+    position: relative;    
+}
+.eye{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: none;
+}
+.overlay:hover .eye{
+    display: block;
+    background: var(--Cyan);
+    opacity: 0.5;
+    border-radius: 10px;
+}
 
