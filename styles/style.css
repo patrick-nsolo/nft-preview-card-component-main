@@ -60,6 +60,10 @@ ul .timeleft{
 .avatar{
     width: 3rem;
     background-color: var(--White);
+    width:42px;
+    height: 42px;
+    position: relative;
+    border-radius: 20px ;
     
 }
 .credits{
@@ -92,7 +96,7 @@ ul .timeleft{
     bottom: 0;
     left: 0;
     right: 0;
-
+    margin: 0;
     display: none;
 }
 .overlay:hover .eye{
